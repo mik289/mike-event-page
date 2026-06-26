@@ -1,0 +1,77 @@
+/* Core Layout Rules Required by Lab Tests */
+body {
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 85vw;
+    min-height: calc(100vh - 100px);
+    box-sizing: border-box;
+}
+
+hr {
+    width: 60%;
+}
+
+section {
+    width: 90%;
+}
+
+/* Custom Visual Style Rules */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b0f19;
+    color: #f3f4f6;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 242, 254, 0.2);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #00f2fe;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #4facfe, #00f2fe, transparent);
+    margin: 20px auto 40px auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+section {
+    background-color: #1e293b;
+    padding: 25px 35px;
+    border-radius: 8px;
+    border-left: 5px solid #4facfe;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4facfe;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    margin-bottom: 0;
+}
